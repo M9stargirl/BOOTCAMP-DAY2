@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="Survey Container">
+        <h1>Survey Form</h1>
+        <form id="SURVEY-FORM"></form>
+        <fieldset>
+            <legend>Personal information</legend>
+            <div class="form Group">
+                <label>
+                    <input type="text" placeholder="Enter your name">
+                </label>
+            </div>
+            <div class="form-group"> 
+                <label>
+                    <input type="text" placeholder="Enter your gmail">
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Course Feedback(1-5):</legend>
+<div class="form-group">
+    <select name="rating">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+</div>
+<div class="form-group">
+    <label>Was the course too difficult,easy or just right?</label>
+    <div class="radio-group">
+        <input type="radio" name="difficulty" value="too-difficult"/>
+        <input type="radio" name="difficulty" value="too-easy"/>
+        <input type="radio" name="difficulty" value="just-right"/>
+
+    </div>
+</div>       
+ </fieldset>
+</form>
+<button>Submit</button>
+    </div>
+</body>
+</html>
